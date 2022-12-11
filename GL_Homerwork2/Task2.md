@@ -3,9 +3,8 @@
 </p>
 
 <p align="center">
-   <img src="" alt="Unity Version">
-   <img src="" alt="Game Version">
-   <img src="" alt="License">
+   <img src="" alt="https://github.com/Tuburni/GL_Homerworks/blob/main/GL_Homerwork2/cloud-init.txt">
+   <img src="" alt="https://github.com/Tuburni/GL_Homerworks/blob/main/GL_Homerwork2/script.ps1">
 </p>
 
 ## About
