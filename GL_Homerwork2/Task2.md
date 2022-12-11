@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-   <img src="" alt="https://github.com/Tuburni/GL_Homerworks/blob/main/GL_Homerwork2/myResourceGroupLoadBalancer.png">
+   <img src="https://github.com/Tuburni/GL_Homerworks/blob/main/GL_Homerwork2/myResourceGroupLoadBalancer.png">
 </p>
 
 ## Distribute
