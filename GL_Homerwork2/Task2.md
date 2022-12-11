@@ -3,25 +3,17 @@
 </p>
 
 <p align="center">
-   <img src="" alt="https://github.com/Tuburni/GL_Homerworks/blob/main/GL_Homerwork2/cloud-init.txt">
-   <img src="" alt="https://github.com/Tuburni/GL_Homerworks/blob/main/GL_Homerwork2/script.ps1">
+   <img src="" alt="https://github.com/Tuburni/GL_Homerworks/blob/main/GL_Homerwork2/myResourceGroupLoadBalancer.png">
 </p>
-
-## About
-
-About Text Here
-
-## Documentation
-
-Documentation Here
 
 ## Distribute
 
-- [Service Name](https://github.com/Tuburni/GL_Homerworks/blob/main/GL_Homerwork2/cloud-init.txt)
+- [cloud-init.txt](https://github.com/Tuburni/GL_Homerworks/blob/main/GL_Homerwork2/cloud-init.txt)
+- [script.ps1](https://github.com/Tuburni/GL_Homerworks/blob/main/GL_Homerwork2/script.ps1)
 
 
 ## Developers
 
-- [Delevoper Name](GitHub Profile Link)
+- [Borys Kondrashov](https://github.com/Tuburni)
 
 ## License
