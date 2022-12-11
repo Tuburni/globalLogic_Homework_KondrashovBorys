@@ -73,9 +73,3 @@ for i in seq 1 2; do
         --custom-data cloud-init.txt \
         --no-wait
 done
-
-az network public-ip show \
-    --resource-group myResourceGroupLoadBalancer \
-    --name myPublicIP \
-    --query [ipAddress] \
-    --output tsv
