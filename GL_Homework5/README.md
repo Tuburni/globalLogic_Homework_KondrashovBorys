@@ -107,13 +107,11 @@ host_key_checking = false
 inventory         = ./hosts
 ```
 
-IV. In your controller machine, in terminal run following comands:
-$
+IV. In your controller machine, in terminal run following comands: 
 ```
 ansible-playbook playbook.yml
 ```
+V. That all
 ## Developers
 
 - [Borys Kondrashov](https://github.com/Tuburni)
-
-## License
