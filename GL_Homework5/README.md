@@ -31,7 +31,7 @@ I. Create a inventory file with four groups:
 - In this file, define four groups: group1, group2, group3, and iaas. The iaas group should include children from group1 and group2. For example: 
 
 > [group1] 
-> vm1 ansible_host=<vm1_ip_address> 
+>> vm1 ansible_host=<vm1_ip_address> 
 vm2 ansible_host=<vm2_ip_address> 
  
 [group2] 
