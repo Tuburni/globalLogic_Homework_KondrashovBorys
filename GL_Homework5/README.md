@@ -60,31 +60,29 @@ II. Create reusable [roles](https://github.com/Tuburni/GL_Homerworks/tree/main/G
      mode: '0500'
      state: touch
 ```
-- In the roles directory, create a new directory called fetch_distro. This will be the directory for the role that fetches the Linux distro name. 
-- Within the fetch_distro directory, create the following files and directories: 
- * tasks directory 
- * main.yml file within the tasks directory 
- * vars directory 
- * main.yml file within the vars directory 
-
-- In the main.yml file within the tasks directory, add the following task to define a variable called distro with the value of the Linux distro name: 
+5. In the [roles](https://github.com/Tuburni/GL_Homerworks/tree/main/GL_Homework5/roles) directory, create a new directory called [fetch_distro](https://github.com/Tuburni/GL_Homerworks/tree/main/GL_Homework5/roles/fetch_distro). This will be the directory for the role that fetches the Linux distro name. 
+6. Within the [fetch_distro](https://github.com/Tuburni/GL_Homerworks/tree/main/GL_Homework5/roles/fetch_distro) directory, create the following files and directories: 
+ * [tasks](https://github.com/Tuburni/GL_Homerworks/tree/main/GL_Homework5/roles/fetch_distro/tasks) directory 
+ * [main.yml](https://github.com/Tuburni/GL_Homerworks/blob/main/GL_Homework5/roles/fetch_distro/tasks/main.yml) file within the [tasks](https://github.com/Tuburni/GL_Homerworks/tree/main/GL_Homework5/roles/fetch_distro/tasks) directory 
+ * [vars](https://github.com/Tuburni/GL_Homerworks/tree/main/GL_Homework5/roles/fetch_distro/vars) directory 
+ * [main.yml](https://github.com/Tuburni/GL_Homerworks/blob/main/GL_Homework5/roles/fetch_distro/vars/main.yml) file within the vars directory 
+7. In the [main.yml](https://github.com/Tuburni/GL_Homerworks/blob/main/GL_Homework5/roles/fetch_distro/tasks/main.yml) file within the [tasks](https://github.com/Tuburni/GL_Homerworks/tree/main/GL_Homework5/roles/fetch_distro/tasks) directory, add the following task to define a variable called distro with the value of the Linux distro name: 
 ```
 --- 
 - name: define variable 
   set_fact: 
     distro: "{{ ansible_distribution }}" 
 ```
-- In the main.yml file within the vars directory, add the following variable to define the distro_version variable with the value of the Linux distro version: 
+8. In the [main.yml](https://github.com/Tuburni/GL_Homerworks/blob/main/GL_Homework5/roles/fetch_distro/vars/main.yml) file within the [vars](https://github.com/Tuburni/GL_Homerworks/tree/main/GL_Homework5/roles/fetch_distro/vars) directory, add the following variable to define the distro_version variable with the value of the Linux distro version: 
 ```
 --- 
 distro_version: "{{ ansible_distribution_version }}" 
 ```
 III. Create a playbook for invoking the roles and printing the registered variables: 
 
-- In your controller machine, create a new file called playbook.yml. 
-- In this file, add the following content to specify 
- 
-- The roles to be invoked and the hosts on which they will be applied: 
+1. In your controller machine, create a new file called playbook.yml. 
+2. In this file, add the following content to specify 
+3. The roles to be invoked and the hosts on which they will be applied: 
 ```
 --- 
 - hosts: iaas 
