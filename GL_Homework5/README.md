@@ -24,7 +24,7 @@
 ## Instruction
  
 Here is a detailed guide:
-! First of all, you need to create 4 EC2 instances in AWS and upload *key pair* to your project folder (in my project it is named *For Ansible.pem*)
+! First of all, you need to create 4 EC2 instances in AWS and upload *key pair* to your project folder (in my project it is named *For Ansible.pem*) !
  
 I. Create a [hosts](https://github.com/Tuburni/GL_Homerworks/blob/main/GL_Homework5/hosts) file with four groups: 
 
