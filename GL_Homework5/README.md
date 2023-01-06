@@ -25,20 +25,19 @@
 
 Here is a detailed guide on how to complete the task described above: 
  
-I. Create a inventory file with four groups: 
+1. Create a inventory file with four groups: 
 
-1. First, create a new file called inventory in your controller machine. 
-2. In this file, define four groups: group1, group2, group3, and iaas. The iaas group should include children from group1 and group2. For example 
+- First, create a new file called inventory in your controller machine. 
+- In this file, define four groups: group1, group2, group3, and iaas. The iaas group should include children from group1 and group2. For example 
 
 
-II. Create reusable roles for creating a file and fetching a Linux distro name: 
-
-1. In your controller machine, create a new directory called roles. 
-2. Within the roles directory, create a new directory called create_file. This will be the directory for the role that creates a file. 
-3. Within the create_file directory, create the following files and directories: 
- * tasks directory 
- * main.yml file within the tasks directory 
-- In the main.yml file, add the following task to create a file called /etc/iaac with permissions 0500
+2. Create reusable roles for creating a file and fetching a Linux distro name: 
+3. In your controller machine, create a new directory called roles. 
+4. Within the roles directory, create a new directory called create_file. This will be the directory for the role that creates a file. 
+5. Within the create_file directory, create the following files and directories: 
+ *tasks* directory 
+ *main.yml* file within the tasks directory 
+6. In the *main.yml* file, add the following task to create a file called /etc/iaac with permissions 0500
 - In the roles directory, create a new directory called fetch_distro. This will be the directory for the role that fetches the Linux distro name. 
 - Within the fetch_distro directory, create the following files and directories: 
  1) tasks directory 
@@ -50,7 +49,7 @@ II. Create reusable roles for creating a file and fetching a Linux distro name:
 
 - In the main.yml file within the vars directory, add the following variable to define the distro_version variable with the value of the Linux distro version
 
-III. Create a playbook for invoking the roles and printing the registered variables: 
+3. Create a playbook for invoking the roles and printing the registered variables: 
 
 - In your controller machine, create a new file called playbook.yml. 
 - In this file, add the following content to specify 
