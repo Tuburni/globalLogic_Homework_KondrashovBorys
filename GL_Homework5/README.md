@@ -83,6 +83,8 @@ III. Create a [playbook](https://github.com/Tuburni/GL_Homerworks/blob/main/GL_H
 1. In your controller machine, create a new file called [playbook.yml](https://github.com/Tuburni/GL_Homerworks/blob/main/GL_Homework5/playbook.yml) 
 2. In this file, add the following content to specify the roles to be invoked and the hosts on which they will be applied: 
 ```
+
+```
 --- 
 - hosts: iaas 
   roles: 
@@ -98,7 +100,16 @@ III. Create a [playbook](https://github.com/Tuburni/GL_Homerworks/blob/main/GL_H
       debug: 
         msg: "distro: {{ distro }}, distro_version: {{ distro_version }}, hostname: {{ ansible_hostname }}"
 ```
-IV. That all 
+3. In your controller machine, create a new file called [ansible.cfg](https://github.com/Tuburni/GL_Homerworks/blob/main/GL_Homework5/ansible.cfg) 
+4. In this file, add the following content: 
+```
+[defaults]
+host_key_checking = false
+inventory         = ./hosts
+```
+
+IV. In your controller machine, in terminal run following comands:
+$ ``` ansible-playbook playbook.yml ```
 ## Developers
 
 - [Borys Kondrashov](https://github.com/Tuburni)
