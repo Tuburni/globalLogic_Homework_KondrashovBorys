@@ -65,7 +65,7 @@ II. Create reusable [roles](https://github.com/Tuburni/GL_Homerworks/tree/main/G
  * [tasks](https://github.com/Tuburni/GL_Homerworks/tree/main/GL_Homework5/roles/fetch_distro/tasks) directory 
  * [main.yml](https://github.com/Tuburni/GL_Homerworks/blob/main/GL_Homework5/roles/fetch_distro/tasks/main.yml) file within the [tasks](https://github.com/Tuburni/GL_Homerworks/tree/main/GL_Homework5/roles/fetch_distro/tasks) directory 
  * [vars](https://github.com/Tuburni/GL_Homerworks/tree/main/GL_Homework5/roles/fetch_distro/vars) directory 
- * [main.yml](https://github.com/Tuburni/GL_Homerworks/blob/main/GL_Homework5/roles/fetch_distro/vars/main.yml) file within the vars directory 
+ * [main.yml](https://github.com/Tuburni/GL_Homerworks/blob/main/GL_Homework5/roles/fetch_distro/vars/main.yml) file within the [vars](https://github.com/Tuburni/GL_Homerworks/tree/main/GL_Homework5/roles/fetch_distro/vars) directory 
 7. In the [main.yml](https://github.com/Tuburni/GL_Homerworks/blob/main/GL_Homework5/roles/fetch_distro/tasks/main.yml) file within the [tasks](https://github.com/Tuburni/GL_Homerworks/tree/main/GL_Homework5/roles/fetch_distro/tasks) directory, add the following task to define a variable called distro with the value of the Linux distro name: 
 ```
 --- 
@@ -78,11 +78,10 @@ II. Create reusable [roles](https://github.com/Tuburni/GL_Homerworks/tree/main/G
 --- 
 distro_version: "{{ ansible_distribution_version }}" 
 ```
-III. Create a playbook for invoking the roles and printing the registered variables: 
+III. Create a [playbook](https://github.com/Tuburni/GL_Homerworks/blob/main/GL_Homework5/playbook.yml) for invoking the roles and printing the registered variables: 
 
-1. In your controller machine, create a new file called playbook.yml. 
-2. In this file, add the following content to specify 
-3. The roles to be invoked and the hosts on which they will be applied: 
+1. In your controller machine, create a new file called [playbook.yml](https://github.com/Tuburni/GL_Homerworks/blob/main/GL_Homework5/playbook.yml) 
+2. In this file, add the following content to specify the roles to be invoked and the hosts on which they will be applied: 
 ```
 --- 
 - hosts: iaas 
@@ -99,6 +98,7 @@ III. Create a playbook for invoking the roles and printing the registered variab
       debug: 
         msg: "distro: {{ distro }}, distro_version: {{ distro_version }}, hostname: {{ ansible_hostname }}"
 ```
+IV. That all 
 ## Developers
 
 - [Borys Kondrashov](https://github.com/Tuburni)
