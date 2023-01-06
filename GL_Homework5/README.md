@@ -36,8 +36,8 @@ Here is a detailed guide on how to complete the task described above:
 - In your controller machine, create a new directory called roles. 
 - Within the roles directory, create a new directory called create_file. This will be the directory for the role that creates a file. 
 - Within the create_file directory, create the following files and directories: 
- 1) tasks directory 
- 2) main.yml file within the tasks directory 
+ > tasks directory 
+ > main.yml file within the tasks directory 
 - In the main.yml file, add the following task to create a file called /etc/iaac with permissions 0500
 - In the roles directory, create a new directory called fetch_distro. This will be the directory for the role that fetches the Linux distro name. 
 - Within the fetch_distro directory, create the following files and directories: 
