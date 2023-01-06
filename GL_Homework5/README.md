@@ -2,11 +2,11 @@
       <img src="https://github.com/Tuburni/GL_Homerworks/blob/main/GL_Homework5/jpg/EC2%20servers.jpg">
 </p>
 
-<p align="center">
+<p align="">
    <img src="https://github.com/Tuburni/GL_Homerworks/blob/main/GL_Homework5/jpg/ansible-inventory%20--graph.jpg">
 </p>
 
-<p align="center">
+<p align="">
    <img src="https://github.com/Tuburni/GL_Homerworks/blob/main/GL_Homework5/jpg/ansible%20-i%20hosts%20all%20-m%20ping.jpg">
 </p>
 
