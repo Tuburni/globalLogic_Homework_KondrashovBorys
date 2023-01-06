@@ -1,0 +1,7 @@
+--- 
+
+- name: create file 
+  ansible.builtin.file:
+     path: '/etc/iaas'
+     mode: '0500'
+     state: touch

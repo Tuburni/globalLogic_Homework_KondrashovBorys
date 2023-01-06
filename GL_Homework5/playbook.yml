@@ -1,0 +1,15 @@
+--- 
+- hosts: iaas
+  become: yes 
+  roles: 
+    - create_file 
+ 
+- hosts: all
+  become: yes
+  roles: 
+    - fetch_distro 
+ 
+  tasks:
+  - name: print hostname and distribution version
+    debug:
+     msg: Host {{ inventory_hostname }} has a IP {{ ansible_host }} and has a Linux {{ ansible_distribution }} version {{ ansible_distribution_version }}
