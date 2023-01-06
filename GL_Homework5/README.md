@@ -30,7 +30,7 @@ I. Create a inventory file with four groups:
 - First, create a new file called inventory in your controller machine. 
 - In this file, define four groups: group1, group2, group3, and iaas. The iaas group should include children from group1 and group2. For example: 
 
-- [] [group1] 
+[] [group1] 
 vm1 ansible_host=<vm1_ip_address> 
 vm2 ansible_host=<vm2_ip_address> 
  
@@ -110,3 +110,6 @@ III. Create a playbook for invoking the roles and printing the registered variab
 - [Borys Kondrashov](https://github.com/Tuburni)
 
 ## License
+- [x] #739
+- [ ] https://github.com/octo-org/octo-repo/issues/740
+- [ ] Add delight to the experience when all tasks are complete :tada:
