@@ -27,8 +27,8 @@ Here is a detailed guide:
  
 I. Create a [hosts](https://github.com/Tuburni/GL_Homerworks/blob/main/GL_Homework5/hosts) file with four groups: 
 
-- First, create a new file called [hosts](https://github.com/Tuburni/GL_Homerworks/blob/main/GL_Homework5/hosts) in your controller machine. 
-- In this file, define four groups: group1, group2, group3, and iaas. The iaas group should include children from group1 and group2. For example: 
+1. First, create a new file called [hosts](https://github.com/Tuburni/GL_Homerworks/blob/main/GL_Homework5/hosts) in your controller machine. 
+2. In this file, define four groups: *group1*, *group2*, *group3*, and *iaas*. The *iaas* group should include children from *group1* and *group2*. For example: 
 ```
 [group1] 
 vm1 ansible_host=35.159.32.3 ansible_user=ubuntu ansible_ssh_private_key_file=/home/borys/Desktop/AnsibleHM/ForAnsible.pem
@@ -43,14 +43,14 @@ vm3 ansible_host=3.121.76.242 ansible_user=ubuntu ansible_ssh_private_key_file=/
 vm1 ansible_host=35.159.32.3 ansible_user=ubuntu ansible_ssh_private_key_file=/home/borys/Desktop/AnsibleHM/ForAnsible.pem
 vm2 ansible_host=3.123.17.50 ansible_user=ubuntu ansible_ssh_private_key_file=/home/borys/Desktop/AnsibleHM/ForAnsible.pem
 ```
-II. Create reusable roles for creating a file and fetching a Linux distro name: 
+II. Create reusable [roles](https://github.com/Tuburni/GL_Homerworks/tree/main/GL_Homework5/roles) for creating a file and fetching a Linux distro name: 
 
-- In your controller machine, create a new directory called roles. 
-- Within the roles directory, create a new directory called create_file. This will be the directory for the role that creates a file. 
-- Within the create_file directory, create the following files and directories: 
- * tasks directory 
- * main.yml file within the tasks directory 
-- In the main.yml file, add the following task to create a file called /etc/iaac with permissions 0500: 
+1. In your controller machine, create a new directory called [roles](https://github.com/Tuburni/GL_Homerworks/tree/main/GL_Homework5/roles). 
+2. Within the [roles](https://github.com/Tuburni/GL_Homerworks/tree/main/GL_Homework5/roles) directory, create a new directory called [create_file](https://github.com/Tuburni/GL_Homerworks/tree/main/GL_Homework5/roles/create_file/tasks). This will be the directory for the role that creates a file. 
+3. Within the [create_file](https://github.com/Tuburni/GL_Homerworks/tree/main/GL_Homework5/roles/create_file/tasks) directory, create the following files and directories: 
+ * [tasks](https://github.com/Tuburni/GL_Homerworks/tree/main/GL_Homework5/roles/create_file/tasks) directory 
+ * [main.yml](https://github.com/Tuburni/GL_Homerworks/blob/main/GL_Homework5/roles/create_file/tasks/main.yml) file within the [tasks](https://github.com/Tuburni/GL_Homerworks/tree/main/GL_Homework5/roles/create_file/tasks) directory 
+4. In the [main.yml](https://github.com/Tuburni/GL_Homerworks/blob/main/GL_Homework5/roles/create_file/tasks/main.yml) file, add the following task to create a file called */etc/iaac* with permissions *0500*: 
 ```
 --- 
 
