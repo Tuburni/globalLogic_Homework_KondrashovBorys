@@ -23,30 +23,25 @@
 
 ## Instruction
  
-Here is a detailed guide on how to complete the task described above: 
+Here is a detailed guide: 
  
-I. Create a inventory file with four groups: 
+I. Create a [hosts](https://github.com/Tuburni/GL_Homerworks/blob/main/GL_Homework5/hosts) file with four groups: 
 
-- First, create a new file called inventory in your controller machine. 
+- First, create a new file called [hosts](https://github.com/Tuburni/GL_Homerworks/blob/main/GL_Homework5/hosts) in your controller machine. 
 - In this file, define four groups: group1, group2, group3, and iaas. The iaas group should include children from group1 and group2. For example: 
 ```
-[] [group1] 
-vm1 ansible_host=<vm1_ip_address> 
-vm2 ansible_host=<vm2_ip_address> 
+[group1] 
+vm1 ansible_host=35.159.32.3 ansible_user=ubuntu ansible_ssh_private_key_file=/home/borys/Desktop/AnsibleHM/ForAnsible.pem
  
 [group2] 
-vm3 ansible_host=<vm3_ip_address> 
-vm4 ansible_host=<vm4_ip_address> 
+vm2 ansible_host=3.123.17.50 ansible_user=ubuntu ansible_ssh_private_key_file=/home/borys/Desktop/AnsibleHM/ForAnsible.pem
  
 [group3] 
-vm5 ansible_host=<vm5_ip_address> 
-vm6 ansible_host=<vm6_ip_address> 
+vm3 ansible_host=3.121.76.242 ansible_user=ubuntu ansible_ssh_private_key_file=/home/borys/Desktop/AnsibleHM/ForAnsible.pem
  
 [iaas] 
-vm1 ansible_host=<vm1_ip_address> 
-vm2 ansible_host=<vm2_ip_address> 
-vm3 ansible_host=<vm3_ip_address> 
-vm4 ansible_host=<vm4_ip_address> 
+vm1 ansible_host=35.159.32.3 ansible_user=ubuntu ansible_ssh_private_key_file=/home/borys/Desktop/AnsibleHM/ForAnsible.pem
+vm2 ansible_host=3.123.17.50 ansible_user=ubuntu ansible_ssh_private_key_file=/home/borys/Desktop/AnsibleHM/ForAnsible.pem
 ```
 II. Create reusable roles for creating a file and fetching a Linux distro name: 
 
@@ -58,11 +53,12 @@ II. Create reusable roles for creating a file and fetching a Linux distro name:
 - In the main.yml file, add the following task to create a file called /etc/iaac with permissions 0500: 
 ```
 --- 
+
 - name: create file 
-  file: 
-    path: /etc/iaac 
-    state: touch 
-    mode: 0500 
+  ansible.builtin.file:
+     path: '/etc/iaas'
+     mode: '0500'
+     state: touch
 ```
 - In the roles directory, create a new directory called fetch_distro. This will be the directory for the role that fetches the Linux distro name. 
 - Within the fetch_distro directory, create the following files and directories: 
