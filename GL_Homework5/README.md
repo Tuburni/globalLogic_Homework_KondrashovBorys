@@ -23,7 +23,7 @@
 
 ## Instruction
  
-Here is a detailed guide on how to complete the task described above: 
+- [ ] Here is a detailed guide on how to complete the task described above: 
  
 I. Create a inventory file with four groups: 
 
@@ -110,6 +110,3 @@ III. Create a playbook for invoking the roles and printing the registered variab
 - [Borys Kondrashov](https://github.com/Tuburni)
 
 ## License
-- [x] #739
-- [ ] https://github.com/octo-org/octo-repo/issues/740
-- [ ] Add delight to the experience when all tasks are complete :tada:
