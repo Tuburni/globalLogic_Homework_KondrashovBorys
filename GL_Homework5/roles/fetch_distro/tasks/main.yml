@@ -1,0 +1,4 @@
+--- 
+- name: define variable 
+  set_fact: 
+    distro: "{{ ansible_distribution }}" 
