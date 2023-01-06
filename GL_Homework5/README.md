@@ -108,7 +108,8 @@ inventory         = ./hosts
 ```
 
 IV. In your controller machine, in terminal run following comands:
-$ ```
+$
+```
 ansible-playbook playbook.yml
 ```
 ## Developers
