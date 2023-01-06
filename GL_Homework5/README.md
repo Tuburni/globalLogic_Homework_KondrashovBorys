@@ -82,7 +82,6 @@ III. Create a [playbook](https://github.com/Tuburni/GL_Homerworks/blob/main/GL_H
 
 1. In your controller machine, create a new file called [playbook.yml](https://github.com/Tuburni/GL_Homerworks/blob/main/GL_Homework5/playbook.yml) 
 2. In this file, add the following content to specify the roles to be invoked and the hosts on which they will be applied: 
-```
 
 ```
 --- 
