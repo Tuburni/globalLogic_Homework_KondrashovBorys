@@ -10,7 +10,7 @@ This task demonstrates how to create a Docker image based on Apache or Nginx, ad
 1. Clone the repository
 
 ```
-git clone https://github.com/Tuburni/GL_Homerworks.git
+git clone https://github.com/Tuburni/GL_Homerworks/tree/main/HW_8_Docker_1.1
 ```
 
 2. Build the image and start the container
