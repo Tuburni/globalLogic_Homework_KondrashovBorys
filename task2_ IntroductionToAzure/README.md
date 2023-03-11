@@ -8,11 +8,11 @@
 
 
 <p align="center">
-      <img src="https://github.com/Tuburni/GL_Homerworks/blob/main/GL_Homerwork2/Video.gif" width="726">
+      <img src="https://github.com/Tuburni/globalLogic_Homework_KondrashovBorys/blob/main/task2_%20IntroductionToAzure/multimedia/gif.gif" width="726">
 </p>
 
 <p align="center">
-   <img src="https://github.com/Tuburni/GL_Homerworks/blob/main/GL_Homerwork2/myResourceGroupLoadBalancer.png">
+   <img src="https://github.com/Tuburni/globalLogic_Homework_KondrashovBorys/blob/main/task2_%20IntroductionToAzure/multimedia/myResourceGroupLoadBalancer.png">
 </p>
 
 ## Distribute
