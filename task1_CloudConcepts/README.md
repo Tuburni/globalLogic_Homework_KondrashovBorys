@@ -1,7 +1,7 @@
-## Task2:
+## Task1:
 1. Using open data and own knowledge, prepare a list of resources required to run a typical website (LAMP/LEMP) in a private datacenter for one year.
 2. Include approximate pricing for the resources
-3. Try to think about non-direct requirements and include them in estimate
+3. Try to think about non-direct requirements and include them in estimate:
   - Storage backups
   - Power devices
   - Reserved network paths
