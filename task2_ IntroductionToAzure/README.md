@@ -5,7 +5,9 @@
 4. Export resulting infrastructure as a ARM template and commit to your repository
 5. Extra points: Web-server installation should be handled by template
 
-
+<p align="center">
+      <img src="https://github.com/Tuburni/globalLogic_Homework_KondrashovBorys/blob/main/task2_%20IntroductionToAzure/multimedia/task.png" width="726">
+</p>
 
 <p align="center">
       <img src="https://github.com/Tuburni/globalLogic_Homework_KondrashovBorys/blob/main/task2_%20IntroductionToAzure/multimedia/gif.gif" width="726">
