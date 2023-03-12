@@ -1,4 +1,4 @@
-To get started, you'll need to:
+To get started, you'll need to copy this comands and past them to terminal:
 ```
 cd
 mkdir KondrashovB
@@ -10,10 +10,12 @@ sudo apt-get update -y
 git clone https://github.com/Tuburni/globalLogic_Homework_KondrashovBorys
 cd globalLogic_Homework_KondrashovBorys/task3_IntorductionToAWS/
 ```
-You will need to enter your aws credentials in main.tf
+You will need to enter your aws credentials in variables.tf
 
+```
 nano ~/globalLogic_Homework_KondrashovBorys/task3_IntorductionToAWS/modules/variable.tf
+```
 
-Run bash install.sh to install terraform and git
-Run setup.sh to setup moodle on aws
+Run bash script **install.sh** to install terraform
+Run bash script **setup.sh** to setup moodle on aws
 Now you will need to navigate to the public IP address to configure your Moodle
