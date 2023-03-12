@@ -1,5 +1,8 @@
 # task3_IntorductionToAWS
 
+flowchart TB
+	node
+
 ## Task: Prepare the environment and install LMS Moodle.
 
 
