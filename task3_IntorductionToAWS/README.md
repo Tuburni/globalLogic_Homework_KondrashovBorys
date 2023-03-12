@@ -1,5 +1,5 @@
 To get started, you'll need:
-1. copy this comands and past them to terminal:
+1. Copy this comands and past them to terminal:
 ```
 cd
 mkdir KondrashovB
