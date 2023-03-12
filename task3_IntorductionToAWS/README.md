@@ -6,7 +6,7 @@
 
 To get started, you'll need:
 1. Install GIT and clone this repository:
-- [ ] <sub> copy and past this comand to terminal </sub>
+>  <sub> copy and past this comand to terminal </sub>
 ```
 cd
 mkdir KondrashovB
@@ -20,18 +20,18 @@ cd globalLogic_Homework_KondrashovBorys/task3_IntorductionToAWS/
 ```
 
 2. Enter your AWS credentials in variables.tf
-- [ ] <sub> copy and past this comand to terminal </sub>
+>  <sub> copy and past this comand to terminal </sub>
 ```
 nano ~/globalLogic_Homework_KondrashovBorys/task3_IntorductionToAWS/modules/variable.tf
 ```
 
 3. Run bash script `install.sh` to install terraform
-- [ ] <sub> copy and past this comand to terminal </sub>
+>  <sub> copy and past this comand to terminal </sub>
 ```
 bash install.sh
 ```
 5. Run bash script `setup.sh` to setup moodle on aws
-- [ ] <sub> copy and past this comand to terminal </sub>
+>  <sub> copy and past this comand to terminal </sub>
 ```
 bash setup.sh
 ```
