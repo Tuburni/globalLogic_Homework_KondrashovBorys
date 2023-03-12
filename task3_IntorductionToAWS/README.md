@@ -1,5 +1,6 @@
 To get started, you'll need:
-1. Copy this comands and past them to terminal:
+1. Install GIT and clone this repository:
+	<sub> copy and past this comand to terminal </sub>
 ```
 cd
 mkdir KondrashovB
