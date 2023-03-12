@@ -30,7 +30,7 @@ stateDiagram-v2
     3. Run bash script `install.sh` to install terraform --> Run bash script `setup.sh` to setup moodle on aws
     3. Run bash script `install.sh` to install terraform --> Now you will need to navigate to the public IP address to configure your Moodle
     
-    stateDiagram-v2
+ stateDiagram-v2
     [*] --> Still
     Still --> [*]
 
@@ -73,3 +73,12 @@ bash setup.sh
 ```
 5. Now you will need to navigate to the public IP address to configure your Moodle
 The background color should be `#0969DA` for light mode and `#0d1117` for dark mode.
+
+stateDiagram-v2
+    [*] --> Still
+    Still --> [*]
+
+    Still --> Moving
+    Moving --> Still
+    Moving --> Crash
+    Crash --> [*]
