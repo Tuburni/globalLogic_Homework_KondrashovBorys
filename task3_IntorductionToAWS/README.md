@@ -10,7 +10,7 @@ sudo apt-get update -y
 git clone https://github.com/Tuburni/globalLogic_Homework_KondrashovBorys
 cd globalLogic_Homework_KondrashovBorys/task3_IntorductionToAWS/
 ```
-You will need to enter your aws credentials in variables.tf
+You will need to enter your AWS credentials in variables.tf
 
 ```
 nano ~/globalLogic_Homework_KondrashovBorys/task3_IntorductionToAWS/modules/variable.tf
@@ -19,3 +19,4 @@ nano ~/globalLogic_Homework_KondrashovBorys/task3_IntorductionToAWS/modules/vari
 Run bash script **install.sh** to install terraform
 Run bash script **setup.sh** to setup moodle on aws
 Now you will need to navigate to the public IP address to configure your Moodle
+The background color should be `#ffffff` for light mode and `#0d1117` for dark mode.
