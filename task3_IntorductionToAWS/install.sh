@@ -6,12 +6,10 @@
 # ------------------------------------------------------------------------------------------------
 
 echo ---------------------------------------------------------------------------------------------
-echo    This script will install terraform and git to this machine
+echo    This script will install terraform to this machine
 echo ---------------------------------------------------------------------------------------------
 
-sudo apt-get update -y
-sudo apt install git -y
-git --version
+
 sudo apt-get update -y
 wget https://releases.hashicorp.com/terraform/1.2.5/terraform_1.2.5_linux_amd64.zip
 sudo apt install zip -y
@@ -20,5 +18,5 @@ sudo mv terraform /usr/local/bin/
 terraform version
 
 echo ---------------------------------------------------------------------------------------------
-echo    Congradulation, terraform and git was sucesfully instaled
+echo    Congradulation, terraform was sucesfully instaled
 echo ---------------------------------------------------------------------------------------------
