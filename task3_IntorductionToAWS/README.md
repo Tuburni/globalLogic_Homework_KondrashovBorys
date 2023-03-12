@@ -20,7 +20,14 @@ nano ~/globalLogic_Homework_KondrashovBorys/task3_IntorductionToAWS/modules/vari
 ```
 
 3. Run bash script `install.sh` to install terraform
-``` bashinstall.sh ```
+- [ ] <sub> copy and past this comand to terminal </sub>
+```
+bash install.sh
+```
 5. Run bash script `setup.sh` to setup moodle on aws
+- [ ] <sub> copy and past this comand to terminal </sub>
+```
+bash setup.sh
+```
 6. Now you will need to navigate to the public IP address to configure your Moodle
 The background color should be `#0969DA` for light mode and `#0d1117` for dark mode.
