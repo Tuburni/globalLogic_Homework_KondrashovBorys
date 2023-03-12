@@ -59,7 +59,7 @@ bash setup.sh
 ```
 
 
-## Useful links:
+### Useful links:
 1. [Creating an AWS account](https://docs.aws.amazon.com/accounts/latest/reference/manage-acct-creating.html)
 2. [Create EC2 instance](https://www.guru99.com/creating-amazon-ec2-instance.html)
 3. [How To Install MySQL on Ubuntu](https://www.digitalocean.com/community/tutorials/how-to-install-mysql-on-ubuntu-18-04)
