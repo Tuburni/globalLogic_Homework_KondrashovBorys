@@ -1,7 +1,7 @@
 To get started, you'll need to:
 
 cd
-git clone https://github.com/yurakorabel/DevOps_GL_Hometask.git
+git clone https://github.com/Tuburni/globalLogic_Homework_KondrashovBorys/tree/main/task3_IntorductionToAWS
 You will need to enter your aws credentials in main.tf
 
 vi main.tf
