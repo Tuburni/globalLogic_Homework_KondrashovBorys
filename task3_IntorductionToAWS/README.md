@@ -16,11 +16,11 @@
 - Create a user on the MySQL server for a specific DB (which will be used for LMS Moodle)
 - Create a database for LMS Moodle
 - Grant permissions on a database for the user
-7. Install Apache HTTP Server
-8. Install PHP as a module for Apache HTTP Server
-9. Download source of LMS Moodle
-10. Copy source files into /var/www/ directory or another directory under web-server management
-11. Create a directory named “moodledata” out of the web-server directory
+4. Install Apache HTTP Server
+5. Install PHP as a module for Apache HTTP Server
+6. Download source of LMS Moodle
+7. Copy source files into /var/www/ directory or another directory under web-server management
+8. Create a directory named “moodledata” out of the web-server directory
 > *Acceptance Criteria:*
 - [X] URL (or IP) to your working Moodle learning platform
 
