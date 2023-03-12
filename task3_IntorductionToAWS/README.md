@@ -38,7 +38,7 @@ sudo apt install git -y
 git --version
 sudo apt-get update -y
 git clone https://github.com/Tuburni/globalLogic_Homework_KondrashovBorys
-cd globalLogic_Homework_KondrashovBorys/task3_IntorductionToAWS/
+cd ~KondrashovB/globalLogic_Homework_KondrashovBorys/task3_IntorductionToAWS/
 ```
 
 2. Enter your AWS credentials in variables.tf:
