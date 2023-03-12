@@ -4,7 +4,7 @@
 
 
 
-To get started, you'll need:
+*To get started, you'll need:*
 1. Install GIT and clone this repository:
 >  <sub> _copy and past this comand to terminal_ </sub>
 ```
