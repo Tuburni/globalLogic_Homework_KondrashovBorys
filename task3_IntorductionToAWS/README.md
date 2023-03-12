@@ -1,6 +1,5 @@
 To get started, you'll need:
 1. Install GIT and clone this repository:
-	<sub> copy and past this comand to terminal </sub>
 ```
 cd
 mkdir KondrashovB
@@ -12,6 +11,8 @@ sudo apt-get update -y
 git clone https://github.com/Tuburni/globalLogic_Homework_KondrashovBorys
 cd globalLogic_Homework_KondrashovBorys/task3_IntorductionToAWS/
 ```
+<sub> copy and past this comand to terminal </sub>
+
 2. Enter your AWS credentials in variables.tf
 
 ```
