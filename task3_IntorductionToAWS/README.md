@@ -2,7 +2,6 @@
 
 # <p align="center"> Intorduction to AWS </p>
 
-
 ## Task: Prepare the environment and install LMS Moodle.
 
 
