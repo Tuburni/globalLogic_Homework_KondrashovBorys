@@ -2,7 +2,7 @@
 
 # <p align="center"> Intorduction to AWS </p>
 
-## Task: Prepare the environment and install LMS Moodle.
+## Task3: Prepare the environment and install LMS Moodle.
 
 
 ### Task decomposition ( from [Global Logic](https://www.globallogic.com/) by [Maksym Mykytyn](https://github.com/myrkytyn)):
@@ -23,6 +23,7 @@
 > *Acceptance Criteria:*
 - [X] URL (or IP) to your working Moodle learning platform
 
+##
     
 ### To get started, you'll need ( complete by [Borys Kondrashov](https://github.com/Tuburni)):
 
@@ -51,7 +52,7 @@ nano ~/globalLogic_Homework_KondrashovBorys/task3_IntorductionToAWS/modules/vari
 ```bash
 bash install.sh
 ```
-4. Run bash script `setup.sh` to setup moodle on aws:
+4. Run bash script `setup.sh` to setup Moodle on AWS:
 >  <sub> _copy and past this comand to terminal_ </sub>
 ```bash
 bash setup.sh
