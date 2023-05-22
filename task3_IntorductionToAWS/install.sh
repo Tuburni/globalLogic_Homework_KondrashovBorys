@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # ------------------------------------------------------------------------------------------------
-#   This script will install terraform and git to this machine
+#   This script will install terraform and to this machine
 #   To run this scirpt write in terminal "bash install.sh"
 # ------------------------------------------------------------------------------------------------
 
